@@ -6837,3 +6837,51 @@ section.wf100.p80.fcampaigns {
 	padding: 0 15px;
 }
 /* mission end */
+
+/* gallery styling */
+
+/* Shared image style */
+.gallery-img img,
+.campaign-thumb img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 8px;
+   border: 1px solid #ddd;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+}
+
+/* Optional hover effect */
+.gallery-img img:hover,
+.campaign-thumb img:hover {
+   transform: scale(1.05);
+}
+
+/* Remove bottom margin only inside campaign box */
+.campaign-thumb {
+   margin-bottom: 0 !important;
+}
+
+/* Keep margin for gallery only */
+.gallery-img {
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+
+.gallery-img a {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   background: rgba(0, 0, 0, 0.6);
+   color: #fff;
+   padding: 6px 8px;
+   border-radius: 50%;
+   z-index: 2;
+   transition: background 0.3s ease;
+}
+
+.gallery-img a:hover {
+   background: #007bff;
+}

@@ -1652,6 +1652,9 @@ section.services-area .sinfo {
 	border-right: 1px solid #c8e6c9;
 	padding: 20px 0;
 }
+.sinfo-img {
+	height: 60px;
+}
 section.services-area ul li:after {
 	position: absolute;
 	top: -20px;
@@ -2194,7 +2197,7 @@ header .navbar-toggler {
 /*****************  WHY Budair  ****************/
 
 .why-Budair {
-	background: url(../images/zakatul_fitri/zakat1.jpg) no-repeat;
+	background: url(../images/mosque/mosque5.jpg) no-repeat;
 	padding: 65px 0 65px;
 	background-size: cover;
 	text-align: center;
@@ -4522,10 +4525,17 @@ GAllery Pages Start
 	opacity: 1;
 	left: 0;
 }
+.item-img {
+	height: 50% !important;
+	width: 50% !important;
+}
 .gallery-img a:hover {
 	background: #66bb6a;
 	color: #fff;
 	border-color: #66bb6a;
+}
+.cause-img {
+	height: 180px !important;
 }
 /***  Filter Able Gallery ****/
 
